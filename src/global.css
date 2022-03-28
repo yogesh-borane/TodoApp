@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+    color:#111;
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+#mainSec {
+    background-color: #b5b33f;
+    color: white;
+    height:70px;
+}
+#mainSec article {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height:inherit;
+    justify-content: space-between;
+}
+
+.logoBlock {
+    flex-basis: 50%;
+}
+
+.menuBlock {
+    flex-basis: 50%;;
+    display: flex;
+    justify-content: flex-end;
+}
+.menuBlock ul {
+    display: flex;
+    list-style: none;
+}
+
+.menuBlock ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+#mainSec .logoBlock a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #999;
+    letter-spacing:1.1px;
+}
+/*==========================** Admin Block**======================*/
+
+.adminBlock {
+    background: #fff;
+}
+
+.adminBlock>article {
+    width: 100%;
+    display: flex;
+    height:100vh;
+}
+
+.sideBar {
+    flex-basis: 25%;
+    background: #fff;
+    border-right: 1px solid #ccc;
+}
+
+.contentBlock {
+    background: #efefef;
+    flex-basis: 75%;
+    padding:10px;
+}
+
+.sideBar nav ul {
+    list-style: none;
+}
+
+.sideBar nav ul li a {
+    text-decoration: none;
+    color:#3f51b5;
+    font-size: 14px;
+    text-transform:capitalize;
+    padding: 10px;
+    width:100%;
+    display:block;
+    border-bottom: 1px solid #80008021;
+}
+
+.sideBar nav ul li a:hover {
+    background-color: #3f51b5;
+    color:#fff;
+}
+
+/*==========================** Profile Block**======================*/
+
+.profileBlock article header {
+    background-color: #FFF;
+    padding: 10px;
+    height:15vh;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    
+}
+
+.profileBlock article header ul {
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:inherit;
+}
+
+.profileBlock article header ul li a {
+    background-color: #e91e63;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;border-radius: 4px;
+}
+
+.profileBlock article header ul li a:hover {
+    background-color: #111;
+    color:#fff;
+}
+
+/*==========================** upload profile photo**======================*/
+
+.profileBlock main {
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    align-items: center;
+    justify-content:center;
+    background-color: #FFF;
+    padding:10px;
+    margin:10px 0;
+}
+
+.profileBlock form {
+    background:#efefef;
+    width:50vw;padding:18px;
+    border-bottom: 2px solid #eee;
+}
+
+.profileBlock input {
+    width:100%;
+    background-color: #fff;
+    padding:10px 20px;
+    color:#111;
+    border:1px solid #ccc;
+    margin:5px 0;
+}
+
+.profileBlock button {
+    color:#fff;
+    font-size: 14px;
+    text-transform:capitalize;
+    padding: 10px;
+    width:100%;
+    display:block;
+    border-bottom: 1px solid #80008021;
+    background-color: #3f51b5;
+    margin: 10px 0;
+    border:none;
+    transition: ease all 0.6s;
+}
+
+.profileBlock button:hover {
+    background-color: #111;
+    color:#fff;
+    transition:ease all 0.6s;
+    cursor:pointer;
+}
+
+.profileBlock h2 {
+    padding: 10px;
+    text-transform: uppercase;
+    color: royalblue;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+
+/* new to do */
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
